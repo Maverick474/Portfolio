@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li className='md:ml-5 custom-color duration-400'><a href="#education">Education</a></li>
                     <li className='md:ml-5 custom-color duration-400'><a href="#skills">Skills</a></li>
                     <li className='md:ml-5 custom-color duration-400'><a href="#projects">Projects</a></li>
-                    <li className='md:mx-5 custom-color duration-400'><a href={CV} download='M.ZainHaseeb.pdf'>Resume</a></li>
+                    <li className='md:ml-5 md:mr-6 custom-color duration-400'><a href={CV} download='M.ZainHaseeb.pdf'>Resume</a></li>
                 </ul> 
             </div>
         </div>
