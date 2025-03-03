@@ -66,6 +66,16 @@ const Skills = () => {
                 </div>
               </div>
 
+              <h2 className="mt-2 text-xl font-semibold">C</h2>
+              <div className="w-full bg-gray-200 rounded-full h-2.5">
+                <div
+                  className="custom-barColor h-2.5 rounded-full flex justify-center items-center"
+                  style={{ width: "70%" }}
+                >
+                  <span className="text-white text-xs font-medium">70%</span>
+                </div>
+              </div>
+
               <h2 className="mt-2 text-xl font-semibold">SQL</h2>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
                 <div
@@ -82,7 +92,7 @@ const Skills = () => {
           <div>
             <h2 className="text-xl font-bold my-2">Professional Skills</h2>
             <div className="custom-border p-2">
-              <h2 className="text-xl font-semibold">Web Development</h2>
+              <h2 className="text-xl font-semibold">Team Work</h2>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
                 <div
                   className="custom-barColor h-2.5 rounded-full flex justify-center items-center"
@@ -92,7 +102,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <h2 className="mt-2 text-xl font-semibold">Web Design</h2>
+              <h2 className="mt-2 text-xl font-semibold">UI Design</h2>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
                 <div
                   className="custom-barColor h-2.5 rounded-full flex justify-center items-center"
@@ -122,13 +132,13 @@ const Skills = () => {
                 </div>
               </div>
 
-              <h2 className="mt-2 text-xl font-semibold">Canvas</h2>
+              <h2 className="mt-2 text-xl font-semibold">AWS Cloud Platform</h2>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
                 <div
                   className="custom-barColor h-2.5 rounded-full flex justify-center items-center"
-                  style={{ width: "85%" }}
+                  style={{ width: "80%" }}
                 >
-                  <span className="text-white text-xs font-medium">85%</span>
+                  <span className="text-white text-xs font-medium">80%</span>
                 </div>
               </div>
 
@@ -141,6 +151,17 @@ const Skills = () => {
                   <span className="text-white text-xs font-medium">90%</span>
                 </div>
               </div>
+
+              <h2 className="mt-2 text-xl font-semibold">Google Colab</h2>
+              <div className="w-full bg-gray-200 rounded-full h-2.5">
+                <div
+                  className="custom-barColor h-2.5 rounded-full flex justify-center items-center"
+                  style={{ width: "90%" }}
+                >
+                  <span className="text-white text-xs font-medium">90%</span>
+                </div>
+              </div>
+
             </div>
 
           </div>

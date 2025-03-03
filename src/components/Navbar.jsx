@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Style.css'
-import CV from './assets/M.ZainHaseeb.pdf'
+import CV from './assets/M.ZainHaseeb_cv.pdf'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
