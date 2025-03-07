@@ -16,8 +16,8 @@ const Projects = () => {
           </div>
           <p className='mt-2'>Created a deepfake detection prototype using CNN + RNN (PSO) trained on different datasets. 
             Optimized performance with data preprocessing and fine-tuning.
-            Developed a Django web app and web extension for easy detection.currently working on adding a transformer layer 
-            to a deepfake detection model to enhance features by capturing global context and relationships. Additionally, 
+            Developed a Django web app and web extension for easy detection. Currently working on adding transformer layer 
+            to the deepfake detection model to enhance features by capturing global context and relationships. Additionally, 
             will incorporate Video Gran Cam to highlight inconsistencies in the captured video frames.</p>
         </div>
 
