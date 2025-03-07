@@ -41,11 +41,12 @@ const Projects = () => {
             <a href='https://github.com/Maverick474/ML_Final_Project' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
           </div>
           <p className='italic font-semibold text-slate-400'>Pandas, NumPy, Librosa, Scikit-learn, Joblib</p>
-          <p className='mt-2'>Developed an audio classification system using MFCC features and machine learning models, 
-            achieving 89.4% validation accuracy with Random Forest as the top-performing model. 
-            Extracted features using Librosa, preprocessed with Scikit-learn’s StandardScaler, 
-            and evaluated models 
-            (Random Forest, SVM, KNN, Decision Tree) using k-fold cross-validation.
+          <p className='mt-2'>
+          Developed an audio classification system leveraging MFCC (Mel-Frequency Cepstral Coefficients) 
+          for feature extraction. The system utilized various machine learning algorithms to achieve robust performance,
+          with a validation accuracy of 89.4% for the top-performing model. Feature extraction was performed using a 
+          popular audio processing library, followed by preprocessing with standardized scaling techniques. 
+          Model evaluation was conducted using k-fold cross-validation to ensure reliability and generalizability
           </p>
         </div>
 
