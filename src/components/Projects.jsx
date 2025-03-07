@@ -14,9 +14,11 @@ const Projects = () => {
             <h2 className='text-xl font-bold custom-textColor'>Deep-Sight: Deepfake Detection using Multi Attentional Detection</h2>
             <a href='https://github.com/Maverick474/DeepFake_Web_App' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
           </div>
-          <p className='mt-2'>Created a deepfake detection prototype using CNN + RNN (PSO) trained on DFDC and FaceForensic++ datasets. 
+          <p className='mt-2'>Created a deepfake detection prototype using CNN + RNN (PSO) trained on different datasets. 
             Optimized performance with data preprocessing and fine-tuning.
-            Developed a Django web app and web extension for easy detection.</p>
+            Developed a Django web app and web extension for easy detection.currently working on adding a transformer layer 
+            to a deepfake detection model to enhance features by capturing global context and relationships. Additionally, 
+            will incorporate Video Gran Cam to highlight inconsistencies in the captured video frames.</p>
         </div>
 
         <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
@@ -25,7 +27,8 @@ const Projects = () => {
             <a href='https://github.com/Maverick474/Recommedation_System' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
           </div>
           <p className='italic font-semibold text-slate-400'>NumPy, Seaborn, Matplotlib, Scikit-learn</p>
-          <p className='mt-2'>Developed a recommendation system using Singular Value Decomposition (SVD) to predict user purchases for 
+          <p className='mt-2'>Developed a recommendation system using Singular Value Decomposition (SVD) to anaylze 
+            prediction of user purchases from
             online stores like Amazon and Walmart. Evaluated the model's performance using key metrics such as F1 score, 
             precision, recall, and accuracy. Utilized Seaborn and Matplotlib to create visualizations, 
             including histograms, to analyze user purchase patterns and enhance insights.
