@@ -14,11 +14,11 @@ const Projects = () => {
             <h2 className='text-xl font-bold custom-textColor'>Deep-Sight: Deepfake Detection using Multi Attentional Detection</h2>
             <a href='https://github.com/Maverick474/DeepFake_Web_App' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
           </div>
-          <p className='mt-2'>Created a deepfake detection prototype using CNN + RNN (PSO) trained on different datasets. 
-            Optimized performance with data preprocessing and fine-tuning.
-            Developed a Django web app and web extension for easy detection. Currently working on adding transformer layer 
-            to the deepfake detection model to enhance features by capturing global context and relationships. Additionally, 
-            will incorporate Video Gran Cam to highlight inconsistencies in the captured video frames.</p>
+          <p className='italic font-semibold text-slate-400'>Best Research FYP Award.</p>
+          <p className='mt-2'>Developed a high-accuracy (89%) deepfake detection model using CNN (ResNeXt-50) with
+          attention mechanisms and LSTM. Integrated the model into a full-stack web application with
+          a React frontend, FastAPI, and Firebase for the backend. Also created a JavaScript browser
+          extension to detect deepfake videos on social platforms in real-time.</p>
         </div>
 
         <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
