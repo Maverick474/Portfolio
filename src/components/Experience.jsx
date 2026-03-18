@@ -16,7 +16,7 @@ const Experience = () => {
         </div>
         <div className=''>
             <h2 className='text-xl font-semibold'>Systems Limited</h2>
-            <p className='custom-textColor'>Sep 2025 - Dec 2025</p>
+            <p className='custom-textColor mb-2'>Sep 2025 - Dec 2025</p>
             <ul className='list-disc list-outside space-y-2'>
                 <li className='ml-10'>Designed RAG pipelines with AI guardrails for safe, reliable, context-aware responses using GPT-4o-mini and Claude 3.5 Haiku.</li>
                 <li className='ml-10'>Developed AI chatbot systems using FastAPI (backend) and Streamlit (frontend),
