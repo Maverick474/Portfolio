@@ -20,26 +20,18 @@ const Experience = () => {
             <span className='custom-dotsColor rounded-full w-4 h-4'></span>
         </div>
         <div className=''>
-            <h2 className='text-xl font-semibold'>Netsol (PVT) LTD.</h2>
-            <p className='custom-textColor'>July 2024 - Sep 2024</p>
-            <p className='italic my-2'>Cloud Computing Intern (AWS & AI/ML)</p>
+            <h2 className='text-xl font-semibold'>Systems Limited</h2>
+            <p className='custom-textColor'>Sep 2025 - Dec 2025</p>
+            <p className='italic my-2'>AI intern</p>
             <ul className='list-disc list-outside space-y-2'>
-                <li className='ml-10'>Developed RESTful APIs using AWS API Gateway.</li>
-                <li className='ml-10'>Implemented serverless functions with AWS Lambda using Node.js and Python (Boto3).</li>
-                <li className='ml-10'>Managed data storage and retrieval using Amazon DynamoDB.</li>
-                <li className='ml-10'>Contributed to full-stack development with AWS services.</li>
-                <li className='ml-10'>Utilized various LLM models under AWS Bedrock, including Meta LLaMA for chat and StableDiffusion 3 for image generation.</li>
-                <li className='ml-10'>Monitored and optimized application performance and resource usage.</li>
+                <li className='ml-10'>Designed RAG pipelines with AI guardrails for safe, reliable, context-aware responses using GPT-4o-mini and Claude 3.5 Haiku.</li>
+                <li className='ml-10'>Developed AI chatbot systems using FastAPI (backend) and Streamlit (frontend),
+                incorporating advanced prompt engineering and optimized model workflows</li>
+                <li className='ml-10'>Built agentic AI workflows using LangGraph, enabling structured multi-step reasoning, agent
+                coordination, and automated task execution.</li>
+                <li className='ml-10'>Engineered and deployed scalable multi-agent AI systems using Docker, ensuring modular,
+                containerized, and production-ready architectures.</li>
             </ul>
-
-            <h2 className='text-xl font-semibold mt-8'>Mindstorm Studios</h2>
-            <p className='custom-textColor'>Jun 2023 - Aug 2023</p>
-            <p className='italic my-2'>Game Developer Fellowship</p>
-            <ul className='list-disc list-outside space-y-2'>
-                <li className='ml-10'>Developed games using Unity and C#.</li>
-                <li className='ml-10'>Implemented core game mechanics and user interfaces.</li>
-                <li className='ml-10'>Optimized game performance for smooth gameplay.</li>
-                <li className='ml-10'>Worked in a team environment to deliver projects on time.</li>
             </ul>
         </div>
       </div>
