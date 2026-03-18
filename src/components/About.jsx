@@ -11,7 +11,7 @@ const About = () => {
             <p className='text-justify mr-6 mt-2 fade-text'>I am an enthusiastic and detail-oriented professional with a strong passion for problem-solving.
             With solid analytical abilities and a proven track record of meeting deadlines, I thrive in tackling
             complex challenges. I enjoy exploring new domains, particularly in web development and emerging
-            technologies such as Machine learning and Generative AI. I was honored with the Best Research
+            technologies such as Machine learning, Deep Learning and Generative AI. I was honored with the Best Research
             FYP Award for my final year project and have recently graduated from Forman Christian College
             University.</p>
 
