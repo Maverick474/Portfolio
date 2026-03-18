@@ -13,9 +13,6 @@ const Experience = () => {
             {/* Dot Top */}
             <span className='custom-dotsColor rounded-full w-4 h-4'></span>
 
-            {/* Vertical Line */}
-            <span className='w-1 custom-lineColor h-[56.5%] cus-height'></span>
-
             {/* Dot Bottom */}
             <span className='custom-dotsColor rounded-full w-4 h-4'></span>
         </div>
