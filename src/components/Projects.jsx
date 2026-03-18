@@ -24,7 +24,7 @@ const Projects = () => {
         <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
           <div className='flex items-center justify-between'>
             <h2 className='text-xl font-bold flex flex-col md:flex-row md:items-baseline custom-textColor'>Teleco Chatbot</h2>
-            <a href='https://github.com/Maverick474/ML_Final_Project' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
+            <a href='https://github.com/Maverick474/Teleco_ChatBot.git' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
           </div>
           <p className='italic font-semibold text-slate-400'>Langchain, OpenAI, ChromaDB, Langgraph, Fast Api, Streamlit, Docker</p>
           <p className='mt-2'>
