@@ -23,6 +23,21 @@ const Projects = () => {
 
         <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
           <div className='flex items-center justify-between'>
+            <h2 className='text-xl font-bold flex flex-col md:flex-row md:items-baseline custom-textColor'>Teleco Chatbot</h2>
+            <a href='https://github.com/Maverick474/ML_Final_Project' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
+          </div>
+          <p className='italic font-semibold text-slate-400'>Langchain, OpenAI, ChromaDB, Langgraph, Fast Api, Streamlit, Docker</p>
+          <p className='mt-2'>
+          A containerized, multi-agent telecom chatbot built with FastAPI, LangChain, LangGraph, and
+          Streamlit that uses RAG and an LLM to provide secure, multilingual (English, Urdu, Arabic)
+          customer support across policies, billing, packages, and troubleshooting. It features
+          intelligent agent routing with guardrails and maintains conversation memory to deliver
+          context-aware, personalized responses across multi-turn interactions
+          </p>
+        </div>
+
+        <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
+          <div className='flex items-center justify-between'>
             <h2 className='text-xl font-bold flex flex-col md:flex-row md:items-baseline custom-textColor'>Recommendation System </h2>
             <a href='https://github.com/Maverick474/Recommedation_System' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
           </div>
@@ -32,34 +47,6 @@ const Projects = () => {
             online stores like Amazon and Walmart. Evaluated the model's performance using key metrics such as F1 score, 
             precision, recall, and accuracy. Utilized Seaborn and Matplotlib to create visualizations, 
             including histograms, to analyze user purchase patterns and enhance insights.
-          </p>
-        </div>
-
-        <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
-          <div className='flex items-center justify-between'>
-            <h2 className='text-xl font-bold flex flex-col md:flex-row md:items-baseline custom-textColor'>Audio Classification</h2>
-            <a href='https://github.com/Maverick474/ML_Final_Project' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
-          </div>
-          <p className='italic font-semibold text-slate-400'>Pandas, NumPy, Librosa, Scikit-learn, Joblib</p>
-          <p className='mt-2'>
-          Developed an audio classification system leveraging MFCC (Mel-Frequency Cepstral Coefficients) 
-          for feature extraction. The system utilized various machine learning algorithms to achieve robust performance,
-          with a validation accuracy of 89.4% for the top-performing model. Feature extraction was performed using a 
-          popular audio processing library, followed by preprocessing with standardized scaling techniques. 
-          Model evaluation was conducted using k-fold cross-validation to ensure reliability and generalizability
-          </p>
-        </div>
-
-        <div className='cursor-pointer custom-border rounded p-4 shadow-lg transition-all duration-700 hover:scale-110'>
-          <div className='flex items-center justify-between'>
-            <h2 className='text-xl font-bold custom-textColor'>Whole Sale Management System</h2>
-            <a href='https://github.com/Maverick474/WholeSale-Management-System' target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-github hover:text-gray-400 transition-all duration-300 text-3xl"></i></a>
-          </div>
-          <p className='italic font-semibold text-slate-400'>MongoDB, Express-Js, Node-Js, React-Js</p>
-          <p className='mt-2'>
-          Developed a fully responsive inventory and order management CRUD application using the MERN stack 
-          (MongoDB, Express.js, React.js, Node.js), featuring user management, real-time updates, 
-          and seamless data handling for efficient inventory tracking and order processing.
           </p>
         </div>
 
