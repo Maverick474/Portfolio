@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Style.css'
-import CV from './assets/M.ZainHaseeb_cv.pdf'
+import CV from './assets/M.ZainHaseeb_CV-1.pdf'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li className='md:ml-5 custom-color duration-400'><a href="#education">Education</a></li>
                     <li className='md:ml-5 custom-color duration-400'><a href="#skills">Skills</a></li>
                     <li className='md:ml-5 custom-color duration-400'><a href="#projects">Projects</a></li>
-                    <li className='md:ml-5 md:mr-6 custom-color duration-400'><a href={CV} download='M.ZainHaseeb.pdf'>Resume</a></li>
+                    <li className='md:ml-5 md:mr-6 custom-color duration-400'><a href={CV} download='M.ZainHaseeb_CV-1.pdf'>Resume</a></li>
                 </ul> 
             </div>
         </div>
