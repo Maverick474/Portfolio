@@ -58,7 +58,7 @@ export default function About() {
                 </svg>
               </a>
               <a
-                href="mailto:zain@example.com"
+                href="mailto:zainhaseeb474@gmail.com"
                 className="btn-outline"
                 id="about-email"
               >
