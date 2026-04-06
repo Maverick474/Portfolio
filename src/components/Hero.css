@@ -331,4 +331,7 @@
   .badge-bottom {
     left: 0;
   }
+  .hero-scroll {
+    display: none;
+  }
 }

@@ -18,10 +18,17 @@
 /* Inner grid */
 .footer-inner {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 48px;
   padding-top: 64px;
   padding-bottom: 48px;
+}
+
+/* Connect icon row */
+.footer-connect-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
 }
 
 /* Brand */
@@ -183,19 +190,10 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .footer-inner {
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-  }
-  .footer-brand {
-    grid-column: 1 / -1;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .footer-inner {
     grid-template-columns: 1fr;
+    gap: 32px;
   }
   .footer-bottom-inner {
     flex-direction: column;
