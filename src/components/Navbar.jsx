@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
+import resumePDF from '../assets/Muhammad_Zain_Haseeb.pdf';
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -64,9 +65,9 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="/src/assets/M.ZainHaseeb_CV-2.pdf"
+              href={resumePDF}
               className="btn-primary nav-cta"
-              download
+              download="Muhammad_Zain_Haseeb.pdf"
             >
               Resume ↓
             </a>

@@ -36,8 +36,10 @@ const skillCategories = [
       { name: 'Git & GitHub', level: 70 },
       { name: 'Docker', level: 80 },
       { name: 'Linux (Ubuntu)', level: 70 },
+      { name: 'Claude Code', level: 80 },
       { name: 'Postman', level: 85 },
-      { name: 'VS Code', level: 95 },
+      { name: 'Cursor', level: 90 },
+      { name: 'VS Code', level: 90 },
     ],
   },
 ];
